@@ -18,6 +18,9 @@ export default function Navbar() {
       <button className="px-5 py-2 bg-yellow-400 font-semibold rounded-full">
         Login
       </button>
+      <button className="px-5 py-2 bg-yellow-400 font-semibold rounded-full">
+        Login
+      </button>
     </nav>
   );
 }
