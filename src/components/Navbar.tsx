@@ -19,7 +19,7 @@ export default function Navbar() {
         Login
       </button>
       <button className="px-5 py-2 bg-yellow-400 font-semibold rounded-full">
-        Login
+        Register
       </button>
     </nav>
   );
