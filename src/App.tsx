@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -119,3 +120,23 @@ function App() {
 }
 
 export default App
+=======
+import Navbar from "./components/Navbar";
+import NowShowing from "./components/NowShowing";
+import Footer from "./components/Footer";
+
+export default function App() {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+
+      {/* Konten akan tumbuh & mendorong footer turun */}
+      <div className="flex-grow">
+        <NowShowing />
+      </div>
+
+      <Footer />
+    </div>
+  );
+}
+>>>>>>> 11b45e11c81a702ce600808818a7f4f6dfd1db9d
